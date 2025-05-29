@@ -1,0 +1,23 @@
+# Python virtual environment
+venv/
+*.pyc
+__pycache__/
+.env
+
+# Collected Data (usually too large to upload)
+data/
+
+# Trained model (can be large, and can be regenerated)
+gesture_recognition_model.h5
+
+# macOS specific
+.DS_Store
+
+# VS Code specific
+.vscode/
+
+# Jupyter Notebook files (if you use them)
+.ipynb_checkpoints/
+
+# Output plots (can be regenerated)
+Figure_1.png
